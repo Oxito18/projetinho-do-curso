@@ -1,8 +1,7 @@
 .navbar {
     background-image: url(https://images.pexels.com/photos/5946083/pexels-photo-5946083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    height: 250px;
+    height: 300px;
     width: 100%;
-    border: 1pt solid red;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +17,11 @@
 }
 
 .logo a{
+    padding: 30px;
     text-decoration: none;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 *{
     margin: 0;
@@ -29,8 +32,7 @@
 #hero-section{
     display: flex ;
     align-items: center;
-    border: 1pt solid red;
-    padding-top: 120px;
+    padding-top: 70px;
 }
 
 .menu{
@@ -48,50 +50,26 @@
 .menu a{
     text-decoration: none;
     color: black;
-    border: 1px solid blue;
+    padding: 10px;
+    justify-content: space-between;
 }
 
-.contato{
-    background-color: greenyellow;
-    width: 400px;
-    
-}
-
-.assunto{
-    width: 400px;
-    height: 30px;
-}
-
-.name{
-    width: 195px;
-    height: 30px;
-}
-
-.email{
-    width: 195px;
-    height: 30px;
-}
-
-.download{
-    color: #09db25;
-}
-
-.section{
+.img{
     display: flex;
-    gap: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
-.botão{
-    background-color: #11aa25;
-    color: white;
-    border-radius: 20px;
-    width: 150px;
-    height: 40px;
+.cone{
+    font-size: 65px;
+    position: sticky;
+    align-items: center;
+    text-align: center;
 }
 
-.paragrafo{
-    width: 400px;
-}
-.paragrafo-titulo{
-    width: 800px;
+.hero-content a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
