@@ -1,115 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>LandingPage</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-     <!-- Barra de navegação -->
-     <nav class="navbar">
+    <!-- Barra de navegação -->
+    <nav class="navbar">
         <div class="logo">
-            <a href="index.html">Foody</a>
+            <a href="index.html"><b>Foody</b></a>
         </div>
-       
+        
         <section id="hero-section">
             <div class="hero-content">
-                <h1>Conexões</h1>
-                <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Home</a>
+                <h1 class="cone">Conexões</h1>
+                <a href="index.html">Home</a>
                 <a> / </a>
-                <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Páginas</a>
+                <a href="#page">Páginas</a>
                 <a> / </a>
-                <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Contatos</a>
+                <a href="#contato">Contatos</a>
                 <br>
             </div>
         </section>
         <div class="menu">
         <ul>
-            <li><a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Home</li>
-            
-            <li><a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Sobre nós</a></li>
-
-            <li><a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Produtos</a></li>
-
-            <li><a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Páginas</a></li>
-
-            <li><a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html">Contatos </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#produto">Produtos</a></li>
+            <li><a href="#pagina">Page</a></li>
+            <li><a href="contato"><b>Contatos</b></a></li>
         </ul>
         </div>
+        <section class="img">
+            <a href="pesquisar"><img src="https://cdn-icons-png.flaticon.com/128/3542/3542003.png" alt="" width="30px"></a>
+            <a href="perfil"><img src="https://cdn-icons-png.flaticon.com/128/8509/8509176.png" alt="" width="33px"></a>
+            <a href="sacoladecompras"><img src="https://cdn-icons-png.flaticon.com/128/44/44338.png" alt="" width="28px"></a>
+        </section>
     </nav>
-
-<!-- Section Hero-textos de informação -->
-<section  id="hero-section"> 
-    <div class="hero-content">
-    <h1>Contatos</h1>
-    <p class="paragrafo-titulo">
-        Estamos aqui para atender você! Se tiver dúvidas sobre nossos produtos, pedidos ou qualquer outra questão, não hesite em nos contatar.</p>
-    </div>
-  </section>
-
-         <!-- Section Informações -->
-    <section class="section">
+    <section  class="gta"> 
         <div class="contato">
-            <label for="numeros"> Telefone </label>
-            <!-- ícone telefone --> <p>(11) 98765-4321</p>
+            <hr class="linha1">
+            <hr class="linha2">
+        <h1>Contatos</h1>
+        <p class="paragrafo-titulo">
+            Estamos aqui para atender você! Se tiver dúvidas sobre nossos produtos,<br> pedidos ou qualquer outra questão, não hesite em nos contatar.</p>
+        </div>
+        </section>
+    
+        <!-- Section Informações -->
+        <section class="section">
+            <div class="seção">
+                <b>Telefone:</b>
+                <div class="telefone">
+                <img src="https://cdn-icons-png.flaticon.com/128/159/159832.png" alt="">
+                <p>(11) 98765-4321</p>
+                </div>
+                <p><b>Email</b></p>
+                <div class="email">
+                <img src="https://cdn-icons-png.flaticon.com/128/3894/3894024.png" alt="">
+                <p>info@hortifrutasdelicias.com</p>
+                </div>
+                <b>Endereço</b>
+                <div class="endereço">
+                <img src="https://cdn-icons-png.flaticon.com/128/446/446075.png" alt="">
+                <p>Rua Mária Osiléa Pires, 2060 - Edson Queiroz</p>
+                </div>
+                <p><b>Redes sociais</b></p>
+                <div class="icones">
+                <img class="ba" src="https://cdn-icons-png.flaticon.com/128/356/356076.png" alt="">
+                <img class="ta" src="https://cdn-icons-png.flaticon.com/128/4628/4628653.png" alt="">
+                <img class="ti" src="https://cdn-icons-png.flaticon.com/128/160/160205.png" alt="">
+                <img class="nha" src="https://cdn-icons-png.flaticon.com/128/4628/4628658.png" alt="">
+                </div>
+            </div>
+            <div class="para">
+                <p>
+                    Preencha o formulário abaixo ou envie um e-mail para info@hortifrutasdelicias.com. Nossa equipe estará pronta para ajudar. Agradecemos seu interesse em nossas delícias frescas!<a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="baixar" > Download.</a>
+                </p>
+                <input type="text" placeholder="Nome" class="balada"> 
+                <input type="text" placeholder="E-mail" class="minde"><br>
+                <input type="text" placeholder="Assunto" class="cuida"> <br>
+                <textarea name="msg" class="jesus">Descrição</textarea> <br>
+                <button class="salgado">Enviar</button>
+            </div>
+        </section>
             
-            <label for="email"> Email </label>
-            <!-- ícone email --><p>info@hortifrutasdelicias.com</p>
-
-            <label for="follow"> Redes sociais </label>
-            <!-- colocar ícones: tt, facebook, youtube, linkedin-->
+        <div id="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.106743715841!2d-38.482310826377976!3d-3.7869406961868872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7458b88c119c3%3A0x51c1f8f2dd2d81c0!2sWSTC%20Empreendimento%20Comercial!5e0!3m2!1spt-BR!2sbr!4v1727440251080!5m2!1spt-BR!2sbr" width="1345" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div>
-            <p class="paragrafo">
-                Preencha o formulário abaixo ou envie um e-mail para info@hortifrutasdelicias.com. Nossa equipe estará pronta para ajudar. Agradecemos seu interesse em nossas delícias frescas!<a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="download" > Download.</a>
-            </p>
-            <input type="text" placeholder="Nome" class="name"> <input type="text" placeholder="E-mail" class="email"> <br> <br>
-            <input type="text" placeholder="Assunto" class="assunto"> <br> <br>
-            <textarea name="msg" id="msg">Descrição</textarea>
-            <button class="botão">Enviar</button>
-        </div>
-    </section>
-        
-    <div id="mapa-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.106743715841!2d-38.482310826377976!3d-3.7869406961868872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7458b88c119c3%3A0x51c1f8f2dd2d81c0!2sWSTC%20Empreendimento%20Comercial!5e0!3m2!1spt-BR!2sbr!4v1727440251080!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-        <!-- Footer -->
-    <footer>
-
-        <!-- informações das redes sociais -->
-        <div> 
-            <h4>Foody</h4>
-            <P> O FreshFarm é um e-commerce dedicado à venda de hortifrutas frescas e orgânicas, trazendo diretamente do campo para a sua mesa. Nossa missão é oferecer produtos de alta qualidade, promovendo uma alimentação saudável e sustentável.</P>
-            <!-- Vai colocar as imagens do Instagram, Facebook e LinkedIn -->
-
-        </div>
-
-        <!--  informações da empresa -->
-        <div>
-            <h4>Sobre a empresa</h4>
-           <!-- ícone endereço--> <p>Rua Mária Osiléa Pires, 2060 - Edson Queiroz</p>
-           <!-- ícone telefone --> <p>(11) 98765-4321</p>
-            <!-- ícone e-mail--><p>info@hortifrutasdelicias.com</p>
-        </div>
-
-        <!-- link de cada informação da empresa -->
-        <div>
-            <h4>Explore</h4>
-            <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html"  class="sobrenos"> > Sobre Nós</a>
-            <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="telefone"> > Contato</a>
-            <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="servico"> > Serviços</li>
-            <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="suporte"> > Suporte</a>
-        </div>
-
-    <!-- informação para enviar um e-mail-->
-        <div>
+    
+            <!-- Footer -->
+        <footer  class="acabou">
+    
+            <!-- informações das redes sociais -->
+            <div class="parte1"> 
+                <h4 style="color: rgb(255, 255, 255); font-size: 40px;">Foody</h4>
+                <P> O FreshFarm é um e-commerce dedicado à venda de hortifrutas frescas e orgânicas, trazendo diretamente do campo para a sua mesa. Nossa </P>
+                <div class="propaganda">
+                <img src="https://cdn-icons-png.flaticon.com/128/4926/4926492.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/3128/3128304.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968852.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/3128/3128329.png" alt="">
+                </div>
+            </div>
+    
+            <!--  informações da empresa -->
+            <div class="zoio">
+                <h4 style="color: rgb(255, 255, 255);font-size: 40px;">Sobre a empresa</h4>
+                <div class="caneca">
+                <img src="https://cdn-icons-png.flaticon.com/128/8169/8169647.png" alt="">
+                <p>Rua Mária Osiléa Pires, 2060 - Edson Queiroz</p>
+                </div>
+                <div class="lula">
+                <img src="https://cdn-icons-png.flaticon.com/128/2511/2511908.png" alt="">
+                <p>(11) 98765-4321</p>
+                </div>
+                <div class="geladeira">
+                <img src="https://cdn-icons-png.flaticon.com/128/893/893257.png" alt="">
+                <p>info@hortifrutasdelicias.com</p>
+                </div>
+            </div>
+    
+            <!-- link de cada informação da empresa -->
+            <div class="aventura">
+                <h4 style="color: rgb(255, 255, 255);font-size: 40px;">Explore</h4>
+                <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html"  class="sobrenos"> > Sobre Nós</a>
+                <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="telefone"> > Contato</a>
+                <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="servico"> > Serviços</a>
+                <a href="https://github.com/Oxito18/projetinho-do-curso/blob/main/index.html" class="suporte"> > Suporte</a>
+            </div>
+    
+        <!-- informação para enviar um e-mail-->
+            <div class="messi">
             <h4>News Flash</h4>
             <p> Mantenha-se Atualizado com as últimas novidades e promoções fresquinhas do nosso hortifruti!</p>
-        <input type="text" placeholder="E-mail" class="email">
-        <button class="botão">Inscreva-se</button>
-        </div>
-    </footer>
+            <div class="fogao">
+            <input type="text" placeholder="E-mail" class="email">
+            <button class="botão">Inscreva-se</button>
+            </div>
+            </div>
+        </footer>
 </body>
 </html>
